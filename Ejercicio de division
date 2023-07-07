@@ -1,0 +1,13 @@
+numero =  int(input("ingrese el numero: "))
+divisor = int(input("ingrese el dividendo: "))
+
+cociente = numero / divisor
+resto = numero % divisor
+
+if resto == 0:
+    tipo_division = "exacta"
+else:
+    tipo_division = "inexacta"
+
+print("el resultado es:", cociente)
+print("el resultado es",tipo_division)
